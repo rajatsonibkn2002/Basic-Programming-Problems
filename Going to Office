@@ -1,0 +1,25 @@
+#include <stdio.h>
+void main()
+{
+    double D, Oc, Of, Od, Cb, Cm, Cd, Cs, costonline, costclassic;
+    double minute, cost;
+    scanf("%lf", &D);
+    scanf("%lf %lf %lf", &Oc, &Of, &Od);
+    scanf("%lf %lf %lf %lf", &Cs, &Cb, &Cm, &Cd );
+    costonline = Oc + ((D - Of)*(Od));
+    minute = D/Cs;
+    cost = (minute * Cm); 
+    costclassic = Cb + (Cd * D) + cost;
+    if(costonline > costclassic)
+    {
+        printf("Classic Taxi");
+    }
+    if(costonline < costclassic)
+    {
+        printf("Online Taxi");
+    }
+    if(costonline == costclassic)
+    {
+        printf("Online Taxi");
+    }
+}
