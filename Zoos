@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char input[20];
+    int i, l, x=0, y=0;
+    gets(input);
+    l = strlen(input);
+    for(i=0;i<l;i++)
+    {
+        if(input[i]==122)
+        {
+            x++;
+        }
+        if(input[i]==111)
+        {
+            y++;
+        }
+    }
+    if((2*x)==y)
+    {
+        printf("Yes");
+    }
+    else
+    {
+        printf("No");
+    }
+}
