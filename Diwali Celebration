@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main()
+{
+    long long int T, i, a, k, n, amt;
+    scanf("%lld", &T);
+    for(i=0; i<T; i++)
+    {
+        scanf("%lld %lld %lld", &a, &k, &n);
+        amt = a + ((n-1)*k);
+        printf("%lld\n", amt);
+    }
+}
