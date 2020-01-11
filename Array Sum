@@ -1,3 +1,8 @@
+// Problem Link : https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/array-sum-2-725368ac/?utm_source=header&utm_medium=search&utm_campaign=he-search
+/*
+    Author : Rajat Soni
+*/
+
 #include <stdio.h>
 void main()
 {
