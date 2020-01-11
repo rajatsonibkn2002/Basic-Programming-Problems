@@ -1,3 +1,8 @@
+// Problem Link : https://www.hackerearth.com/practice/basic-programming/operators/basics-of-operators/practice-problems/algorithm/birthday-party-12/?utm_source=header&utm_medium=search&utm_campaign=he-search
+/*
+    Author : Rajat Soni
+*/
+
 #include <stdio.h>
 void main()
 {
