@@ -1,3 +1,8 @@
+// Problem Link : https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/ques-2/
+/*
+    Author : Rajat Soni
+*/
+
 #include <stdio.h>
 void main()
 {
