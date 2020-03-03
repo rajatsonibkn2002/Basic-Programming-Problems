@@ -1,3 +1,8 @@
+// Problem Link : https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/the-great-kian/?utm_source=header&utm_medium=search&utm_campaign=he-search
+/*
+    Author : Rajat Soni
+*/
+
 #include <stdio.h>
 void main()
 {
