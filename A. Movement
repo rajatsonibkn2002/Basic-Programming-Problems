@@ -2,7 +2,6 @@
 /* 
     @author Rajat Soni
 */
-
 #include <stdio.h>
 void main()
 {
